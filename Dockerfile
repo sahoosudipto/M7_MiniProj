@@ -10,7 +10,7 @@ WORKDIR /PatientSurvivalPrediction
 ADD ./PatientSurvivalPrediction /PatientSurvivalPrediction/
 
 # Install dependencies
-COPY requirements.txt .
+COPY  ./PatientSurvivalPrediction/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the project files
