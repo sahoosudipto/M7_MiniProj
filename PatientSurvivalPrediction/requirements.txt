@@ -1,0 +1,9 @@
+numpy #< 2.0.0
+joblib
+uvicorn #>=0.16.0,<0.18.0
+fastapi #>=0.64.0,<1.0.0
+pydantic #>=1.8.1,<2.0.0
+requests
+gradio #==3.36.1        # gives a friendly web interface
+xgboost
+
