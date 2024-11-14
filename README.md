@@ -18,4 +18,7 @@ git commit -m "Initial commit"   # Commit all files
 git remote add origin https://github.com/sahoosudipto/M7_MiniProj.git
 
 #push the chages
-git push -u origin master
+#git push -u origin master
+#if branch is ma
+git push -u origin main
+
