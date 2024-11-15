@@ -48,7 +48,7 @@ docker build -t patient-survival-prediction-app .
 docker run -it -p 5000:5000 patient-survival-prediction-app
 
 docker login -u aimlc3sudipto
-dckr_pat_yA8JMoi0K-fYIFIrM8eDksYn3TA
+
 
 #add tag
 docker tag patient-survival-prediction-app aimlc3sudipto/patient-survival-prediction-app:latest
