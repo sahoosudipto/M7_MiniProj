@@ -48,7 +48,7 @@ docker build -t patient-survival-prediction-app .
 docker run -it -p 5000:5000 patient-survival-prediction-app
 
 docker login -u aimlc3sudipto
-
+dckr_pat_yA8JMoi0K-fYIFIrM8eDksYn3TA
 
 #add tag
 docker tag patient-survival-prediction-app aimlc3sudipto/patient-survival-prediction-app:latest
@@ -83,3 +83,23 @@ docker push 209479294157.dkr.ecr.eu-north-1.amazonaws.com/patient-survival-predi
 2. Delete the Task Definition
 3. Delete the Cluster
 4. Delete the ECR Repository
+
+
+
+Mini Proj2
+Step 1: Run your application on GitHub Codespaces OR Hugging Face Spaces
+Take the testing dataset from Colab and save into a csv file - PatientSurvival_testing_dataset.csv
+
+import prometheus_client as prom
+
+
+
+
+Step 2: Setup Prometheus & Grafana using GitHub Codespaces
+add prometheus.yml
+
+Step 3: Access the application’s metrics in Prometheus
+
+Step 4: Create Real-time Dashboard in Grafana
+
+Step 5: Add an Alert in Grafana
