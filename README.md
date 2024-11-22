@@ -90,9 +90,16 @@ Mini Proj2
 Step 1: Run your application on GitHub Codespaces OR Hugging Face Spaces
 Take the testing dataset from Colab and save into a csv file - PatientSurvival_testing_dataset.csv
 
+https://drive.google.com/drive/u/1/folders/1rUhqBJq-6KT07Lc0LclaXHQrc60caBTn
+setup Prometheus and Grafana
+
+docker run -it -d -p 9090:9090 -u root -v "$PWD/prometheus.yml:/etc/prometheus/prometheus.yml" -v "$PWD/prometheus-data:/prometheus" --name=prom_cont prom/prometheus
+Prometheus PWD - xnca fitu yfcb urzc
+
+Grafana PWD - jonn kqbf vira fklk
 import prometheus_client as prom
 
-
+docker run -it -d -p 3000:3000 -u root -v "$PWD/grafana-data:/var/lib/grafana" --env-file "$PWD/env.list" --name=grafana_cont grafana/grafana-oss
 
 
 Step 2: Setup Prometheus & Grafana using GitHub Codespaces
