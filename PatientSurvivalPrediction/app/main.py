@@ -5,6 +5,7 @@ parent, root = file.parent, file.parents[1]
 sys.path.append(str(root))
 
 import gradio
+import prometheus_client as prom
 from fastapi import FastAPI, Request, Response
 
 import random
@@ -19,6 +20,10 @@ import pickle
 # MODEL_PATH = os.path.join('models', 'xgboost-model.pkl')
 # MODEL_PATH = root / 'models' / 'xgboost-model.pkl'
 MODEL_PATH = os.path.join(root, 'models', 'xgboost-model.pkl')
+
+
+
+
 
 
 # Load the model
